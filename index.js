@@ -2,7 +2,12 @@
 
 let array = ['John','Matus','Petra'];
 
-array.forEach(element =>{
-    $('#last').append('<li>',element,'</li>')
-    console.log(element);
-}   );
+
+$.each(array,function (key,val) {
+    $("#ul").append("<ul>"+val+"</ul>");
+    // if (val === "Matus")
+   });
+   let additionalBlock = {
+    title: "Added with javascript",
+    text: "This block was added using JavaScript's jQuery library. How awesome!"
+  };
