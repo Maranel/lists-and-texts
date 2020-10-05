@@ -1,0 +1,36 @@
+*{
+  width: 500px;
+}
+h1{
+  color: green;
+}
+h2{
+  color: #4dff88;
+}
+ul.a{
+   list-style-type: circle;
+}
+
+ol.a{
+  list-style-type: upper-alpha;
+}
+ul{
+  background: #3399ff;
+  padding: 20px;
+}
+ul li{
+  background: #657699;
+
+}
+ol{
+  background: #e68a00;
+  width: 460px;
+}
+
+ol li{
+  background: #ffebcc;
+  width: 460px;
+}
+.uline{
+  text-decoration: underline;
+}
